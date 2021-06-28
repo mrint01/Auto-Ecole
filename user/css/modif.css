@@ -1,0 +1,379 @@
+#div1{
+  background-color:#383838;
+   border: 5px solid #383838;
+    width: 100.78%;
+    height: 42px;
+  position: relative;
+  top: -8px;
+    margin-left: -13px;
+ }
+
+#img2{
+  width: 35px;
+    height: 30px;
+    margin-left: 110px;
+  border-radius:15px;
+  margin-top: 3px;
+ 
+}  
+#txt1{
+    font-family: Trattatello, fantasy;
+  margin-left: 150px;
+}
+#txt11{
+  margin-top:-22px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  width: 101%;
+  margin-left: -8px;
+  margin-top: -8px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #63b8e8;
+  margin-left:0px; 
+}
+.fs1{
+  background:transparent;
+  margin:auto;
+  width:50%;
+  
+}
+#txt5{
+  font-size: 15px;
+    line-height: 1.6;
+    margin-top: 29px;
+    color: #b5b5b5;
+    padding-right: 15px;
+  
+}
+.pe{
+	color: #ffffff;
+    font-size: 16px;
+    margin: 27px 0 0 0;
+    font-weight: 100;
+}
+body{
+  background:url(./../img/2.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 48px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+input[type=text], input[type=password],input[type=email],input[type=tel] {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white ;
+}
+input[type=text]:focus, input[type=password],input[type=email],input[type=tel]:focus {
+  outline: none;
+}
+/* Set a style for all buttons */
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+/*button:hover {
+  opacity:1;
+}*/
+
+/* Extra styles for the cancel button */
+.annulbtn {
+  margin-right:10%;
+  padding: 14px 20px;
+  background-color: #f44336
+ }
+.retbtn {
+  margin-right:10%;
+  padding: 14px 20px;
+  background-color: gray;
+ }
+/* Float cancel and signup buttons and add an equal width */
+.annulbtn, .envoyerbtn, .retbtn {
+  float: left;
+  width: 20%;
+  margin-left:30%;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+/*@media screen and (max-width: 300px) {
+  .annulbtn, .envoyerbtn {
+     width: 100%;
+  }
+}
+*/
+.imggg{
+	    width: 20px;
+}
+
+.right {
+
+margin-left:15%;
+font-size:20px;
+  font-weight:400;
+  line-height:24px;
+  color:#000000;
+justify-content: space-between;
+}
+#div2{
+  
+  margin-left: 80%;
+    margin-top: 0px;
+  border: 5px solid gray;
+  background-color: #d5d5d5;
+  border-radius:10px;
+  width: 149px;
+  opacity:0.7;
+  padding: 5;
+  
+}
+#img6{
+  width: 159px;
+    height: 67px;
+  
+}
+#div5{
+
+	background-image:url(../img/img7.jpg);
+    border: 5px solid #383838;
+    width: 101%;
+    height: auto;
+    position: relative;
+    top: 35%;
+    margin-left: -13px;
+
+}
+
+.box select {
+ 
+   position: relative;
+  width: auto;
+  margin:0 auto;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 15px;
+  color: #60666d;
+   border-radius: 2px;
+    cursor: pointer;
+
+}
+
+
+[required] {
+   border: 10px dotted orange;
+}
+
+
+
+
+
+.container{
+  max-width:1140px;
+  margin:auto;
+  
+}
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  
+  
+}
+.about-me{
+    min-height: 100vh;
+  background-size:cover;
+  background-position:center;
+  padding:100px 15px;
+  position:absolute;
+  left:0px;
+  right:0px;
+  background-color:#ffffff;
+  margin-top:-20px;
+  
+}
+.about-me .section-title{
+  flex:0 0 100%;
+  max-width: 100%;
+  margin-bottom:40px;
+  
+}
+.about-me .section-title h1{
+  display: inline-block;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight:700;
+  color:#000000;
+  margin:0 0 5px;
+  position:relative;
+
+}
+.about-me .section-title h1:before{
+  content:'';
+  left:0;
+  position:absolute;
+  height:2px;
+  right:30%;
+  background-color:#FF7F50;
+  bottom:0px;
+}
+.text-uppercase{
+  text-transform: uppercase!important;
+}
+.about-me .section-title p.small{
+  display: block;
+  font-size:18px;
+  color:#FF7F50;
+  font-weight:400;
+  letter-spacing:2px;
+}
+.about-me .about-content{
+	right:50px;
+}
+.about-me .about-content .img{
+	flex:0 0 33.33%;
+	max-width:33.33%;
+	
+
+	
+}
+.about-me .about-content .img img{
+	width:70%;
+	height:150%;
+	display:block;
+	padding-right:0px;
+	margin-left:30px;
+	border: 1px solid;
+}
+.about-me .about-content .text{
+  
+  flex:0 0 66.66%;
+  max-width:66.66%;
+  padding-left:0px;
+  margin-top:30px;
+}
+.about-me .about-content .text h4{
+  font-size:25px;
+  font-weight:600;
+  margin:0 0 5px;
+  color:#000000;
+}
+.about-me .about-content .text h6{
+  font-size:15px;
+  font-weight:500;
+  margin:0 0 15px;
+  color:#000000;
+}
+.about-me .about-content .text h6 span{
+  color:#febd01;
+}
+.about-me .about-content .text p{
+  font-size:15px;
+  font-weight:400;
+  line-height:24px;
+  color:#838383;
+  margin:0 0 20px;
+}
+.about-me .about-content .text .info{
+  
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin-top:10px;
+  
+}
+.about-me .about-content .text .info .liste{
+  
+  flex:0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+  margin-top:20px;
+  display:flex;
+  flex-wrap:wrap;
+  border-bottom:1px solid #dee2e6;
+  padding-bottom:10px;
+}
+.about-me .about-content .text .info .liste label{
+  padding-right:10px; 
+  color:#000000;
+  font-weight:600;
+  font-size:20px;
+}
+  
+.about-me .about-content .text .info .liste p{
+  margin:0px;
+  margin-top:-1px;
+  font-size:20px;
+}
